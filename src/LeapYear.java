@@ -1,0 +1,18 @@
+
+public class LeapYear {
+}
+
+public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter a year: ");
+    double yearInput = scanner.nextFloat();
+
+   double a = yearInput%4;
+            double b = yearInput%100;
+            double c = yearInput%400;
+
+    if (a == 0 && b ==0 || c ==0) {
+        System.out.println("The Year is Leap!");
+    } else System.out.println("The Year is not Leap!");
+    }
