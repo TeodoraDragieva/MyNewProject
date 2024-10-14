@@ -23,23 +23,23 @@ public class Main{
 
     public static void determineTriangleType(int angle1, int angle2, int angle3) {
         if (angle1 == 60 && angle2 == 60 && angle3 == 60) {
-            System.out.println("The triangle is equilateral (равностранен).");
+            System.out.println("The triangle is equilateral.");
         } else if (angle1 == angle2 || angle2 == angle3 || angle1 == angle3) {
-            System.out.println("The triangle is isosceles (равнобедрен).");
+            System.out.println("The triangle is isosceles.");
         }
 
         if (angle1 != 90 && angle2 != 90 && angle3 != 90) {
             if (angle1 <= 90 && angle2 <= 90 && angle3 <= 90) {
-                System.out.println("The triangle is acute (остроъгълен).");
+                System.out.println("The triangle is acute.");
             } else {
-                System.out.println("The triangle is obtuse (тъпоъгълен).");
+                System.out.println("The triangle is obtuse.");
             }
         } else {
-            System.out.println("The triangle is right-angled (правоъгълен).");
+            System.out.println("The triangle is right-angled.");
         }
 
         if (angle1 != angle2 && angle2 != angle3 && angle1 != angle3) {
-            System.out.println("The triangle is scalene (разностранен).");
+            System.out.println("The triangle is scalene.");
         }
 
     }
