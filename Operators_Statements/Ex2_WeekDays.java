@@ -1,4 +1,4 @@
-package HW_4;
+package Operators_Statements;
 
 import java.util.Scanner;
 
