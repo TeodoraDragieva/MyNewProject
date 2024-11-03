@@ -1,4 +1,4 @@
-package Operators_Statements;
+package Class5_Operators_Statements;
 
 import java.util.Scanner;
 

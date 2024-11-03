@@ -1,4 +1,4 @@
-package Loops_5;
+package Class4_Loops_5;
 
 public class Ex1_MaxNumber {
     public static void main(String[] args){
