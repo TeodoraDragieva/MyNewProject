@@ -7,7 +7,6 @@ public class Ex7_JavaProgram {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        // Генерираме число между 1 и 100
         int numberToGuess = random.nextInt(10) + 1;
         int userGuess;
 
@@ -28,6 +27,6 @@ public class Ex7_JavaProgram {
     }
 
     public static void main(String[] args) {
-        guessNumber(); // Извикване на метода
+        guessNumber(); 
     }
 }
