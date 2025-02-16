@@ -1,14 +1,9 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
 import java.util.Scanner;
 
 final class Ex6_LeapYear {
     Ex6_LeapYear() {
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a year: ");
