@@ -9,7 +9,6 @@ public class SmallestNumber {
         System.out.println("The smallest number is: " + smallest);
     }
 
-    // Метод за намиране на най-малкото число сред три числа
     public static int findSmallest(int a, int b, int c) {
         int smallest = a;
 
@@ -20,7 +19,6 @@ public class SmallestNumber {
         if (c < smallest) {
             smallest = c;
         }
-
         return smallest;
     }
 }
