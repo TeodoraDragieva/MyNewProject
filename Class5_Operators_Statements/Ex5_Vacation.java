@@ -1,15 +1,9 @@
 
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 import java.util.Scanner;
 
 public class Ex5_Vacation {
     public Ex5_Vacation() {
     }
-
     public static void main(String[] args) {
         String Option1 = "Mountain";
         String Option2 = "Beach";
@@ -28,7 +22,6 @@ public class Ex5_Vacation {
             } else {
                 System.out.println("Choose another country for your vacation.");
             }
-
         }
     }
 }
